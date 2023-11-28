@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(ord('k'), ord('g') + 1):
-    print("{:c}".format(i), end="")
+for k in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(k), end="")
