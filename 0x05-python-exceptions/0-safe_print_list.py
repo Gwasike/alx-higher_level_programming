@@ -5,8 +5,9 @@ def safe_print_list(my_list=[], x=0):
         while k is not x:
             print(my_list[k], end='')
             k += 1
-    except IndexEroor:
+    except IndexError:
         None
     print()
     return k
+
 
